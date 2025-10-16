@@ -29,7 +29,7 @@ EXPOSE 8000
 
 ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1 \
-    DJANGO_SETTINGS_MODULE=settings.production
+    DJANGO_SETTINGS_MODULE=project.settings.production
 
 # run entry.sh
 CMD ["./entry.sh"]
