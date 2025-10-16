@@ -211,7 +211,7 @@ dev = [
 [package.metadata]
 requires-dist = [
     { name = "gunicorn", specifier = ">=23.0.0" },
-    { name = "huma-platform", git = "https://github.com/huma-engineering/huma-platform.git?rev=master" },
+    { name = "huma-platform", git = "https://github.com/huma-engineering/huma-platform.git?rev=HPB-35832-make-huma-directory-reusable-in-multiple-projects" },
 ]
 
 [package.metadata.requires-dev]
@@ -841,7 +841,7 @@ wheels = [
 [[package]]
 name = "huma-platform"
 version = "0.1.0"
-source = { git = "https://github.com/huma-engineering/huma-platform.git?rev=master#3a52d330d4ff528276dfe7fccd2925cc77f92650" }
+source = { git = "https://github.com/huma-engineering/huma-platform.git?rev=HPB-35832-make-huma-directory-reusable-in-multiple-projects#2f5be9a31c284ca4e4bc5145a48891af701671b7" }
 dependencies = [
     { name = "azure-storage-blob" },
     { name = "beautifulsoup4" },
