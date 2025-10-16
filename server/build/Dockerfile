@@ -19,6 +19,7 @@ RUN git config --global url."https://_:${GITHUB_TOKEN}@github.com/".insteadOf "h
 RUN uv sync --no-install-project --locked
 
 COPY . .
+RUN mv build/entry.sh .
 RUN chmod +x entry.sh
 
 RUN useradd -m appuser
