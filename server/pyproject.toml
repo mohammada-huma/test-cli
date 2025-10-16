@@ -10,7 +10,6 @@ dependencies = [
 ]
 
 [tool.uv.sources]
-# huma_platform = { git = "https://github.com/huma-engineering/huma-platform.git", rev = "master" }
 huma_platform = { git = "https://github.com/huma-engineering/huma-platform.git", rev = "HPB-35832-make-huma-directory-reusable-in-multiple-projects" }
 
 [dependency-groups]
